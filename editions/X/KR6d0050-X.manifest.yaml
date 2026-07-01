@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6d0050/X/v1
+canonical_location: https://kanripo.org/bkk/KR6d0050/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 觀音經玄義記會本科
+  identifiers:
+    krp: KR6d0050
+    cbeta: X35n0640
+    cbeta_old_id: X35n0640
+    authorityid: CA0001248
+    json_key: X0640
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X35/X35n0640.xml
+    old_id: X35n0640
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0050_000-X.yaml, hash: 'sha256:4dd61e89be0ae3181af46fcb31fbbfc2b5beb273ac4c09a0aa6d58c6eb542879'}
+  - {seq: 1, filename: KR6d0050_001-X.yaml, hash: 'sha256:b368e321bcd94e11b125b647bef6dfbae62e9a806feb2b450ca1b5f71ba0603c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0050_000-X.markers.yaml, hash: 'sha256:b35536f2e3ffceff6fa73605fd8d1bbfd637830d80fa6bf9cc72dd5d8573c8a8'}
+  - {seq: 1, role: markers, filename: assets/KR6d0050_001-X.markers.yaml, hash: 'sha256:9a30d9a279287ac0726a3895401d3b00657ffe1aaa01cdb29a3720ed417b7e4f'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6d0050_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 7212
+  label: 觀音玄義記會本科文
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0050_X_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 第一卷科
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0050_X_001-mulu-2
+    span:
+    - body
+    - 1155
+    - 1155
+  label: 第二卷科
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0050_X_001-mulu-3
+    span:
+    - body
+    - 3588
+    - 3588
+  label: 第三卷科
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0050_X_001-mulu-4
+    span:
+    - body
+    - 5283
+    - 5283
+  label: 第四卷科
+  type: mulu
+  level: 1
+hash: sha256:486173d278137b813467353a98c34ce422e9d9288bc8a7da2b9a90de74eaa45b
